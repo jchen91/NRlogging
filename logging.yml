@@ -1,0 +1,13 @@
+logs:
+  - name: cloud-init.log
+    file: /var/log/cloud-init.log
+  - name: messages
+    file: /var/log/messages
+  - name: secure
+    file: /var/log/secure
+  - name: yum.log
+    file: /var/log/yum.log
+  - name: newrelic-cli.log
+    file: /root/.newrelic/newrelic-cli.log
+    attributes:
+      newrelic-cli: true
